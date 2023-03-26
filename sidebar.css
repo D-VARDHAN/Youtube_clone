@@ -1,0 +1,20 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left:0px;
+    top:59px;
+    bottom: 0px;
+    padding-top:15px ;
+    background-color: white;
+    width:65px;
+    z-index: 200;
+}
+.sidebar-link{
+    height: 75px;
+    background-color: white;
+}
+.sidebar-link:hover{
+    background-color: rgb(238, 236, 236);
+}
